@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tab Widget</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body ng-app="tabWidget">
+<div class="container">
+    <div ng-controller="tabWidgetCtrl" >
+        <nav ng-repeat="tabGroup in tabGroups" class="navbar navbar-dark bg-inverse">
+            <a class="navbar-brand" href="#">{{tabGroup.name}}</a>
+            <ul class="nav nav-tabs">
+                <li ng-repeat="item in tabGroup.tags track by $index" class="nav-item" ng-class="{active: $index==0}" ng-click="open($index)"><a href="#" class="nav-link">{{item.name}}</a></li>
+            </ul>
+        </nav>
+        <div class="container" ng-repeat="tabGroup in tabGroups">
+            <div ng-repeat="item in tabGroup.tags" ng-show="visibility">
+                {{item.info}}
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/libraries/jquery3.1.1.js"></script>
+<script type="text/javascript" src="js/libraries/angular1.5.js"></script>
+<script type="text/javascript" src="js/controllers/tabWidgetController.js"></script>
+</body>
+</html>
