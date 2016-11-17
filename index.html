@@ -16,7 +16,8 @@
             </ul>
         </nav>
         <div class="container" ng-repeat="tabGroup in tabGroups">
-            <div ng-repeat="item in tabGroup.tags" ng-show="visibility">
+            <div ng-repeat="item in tabGroup.tags" ng-show="visibleTab == $index">
+                <img src="{{item.imgUrl}}">
                 {{item.info}}
             </div>
         </div>

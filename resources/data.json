@@ -5,15 +5,23 @@
       "tags": [
         {
           "name": "San Francisco",
-          "info": "A local expert described San Francisco as “the heart of the bohemian lifestyle, the epicenter of the LGBT rights movement, and the launching point of the technology era.” In the last decade, thousands of tech companies have raced to set up shop in the Bay Area, sending the cost of living through the roof. But despite all the focus on the tech and startup scene, the city also has plenty of business jobs available with more than 30 international finance headquarters."
+          "info": "A local expert described San Francisco as “the heart of the bohemian lifestyle, the epicenter of the LGBT rights movement, and the launching point of the technology era.” In the last decade, thousands of tech companies have raced to set up shop in the Bay Area, sending the cost of living through the roof. But despite all the focus on the tech and startup scene, the city also has plenty of business jobs available with more than 30 international finance headquarters.",
+          "imgUrl": "https://farm4.staticflickr.com/3868/14618435820_df3e580cae_m_d.jpg"
         },
         {
           "name": "Columbus Ohio",
-          "info": "The spirit of Columbus is inextricably linked to Ohio State University — and of course its football team — which calls the city home. Residents love to cheer on the Buckeyes year-round, but Columbus isn’t just a college town. Head to the Short North Arts District for shopping and gallery hopping, get outside at one of the many parks surrounding the city, or take in some culture at the Museum of Art or the Columbus Zoo and Aquarium."
+          "info": "The spirit of Columbus is inextricably linked to Ohio State University — and of course its football team — which calls the city home. Residents love to cheer on the Buckeyes year-round, but Columbus isn’t just a college town. Head to the Short North Arts District for shopping and gallery hopping, get outside at one of the many parks surrounding the city, or take in some culture at the Museum of Art or the Columbus Zoo and Aquarium.",
+          "imgUrl": "https://farm1.staticflickr.com/383/20223831012_9b4c8810da_m_d.jpg"
         },
         {
           "name": "Phoenix Arizona",
-          "info": "Come for the weather, stay for the city: Phoenix boasts more sunny days per year than any other city in the US, according to a local expert. But it’s the thriving job market, variety of shops and restaurants, and easy access to numerous outdoor activities — think everything from hiking to paddleboarding — that keep residents happy long-term."
+          "info": "Come for the weather, stay for the city: Phoenix boasts more sunny days per year than any other city in the US, according to a local expert. But it’s the thriving job market, variety of shops and restaurants, and easy access to numerous outdoor activities — think everything from hiking to paddleboarding — that keep residents happy long-term.",
+          "imgUrl":"https://farm3.staticflickr.com/2909/14418477124_7160f591f6_m_d.jpg"
+        },
+        {
+          "name": "Kansas City, Missouri",
+          "info": "Don’t call it a flyover city. Innovation, creativity, and a celebrated history combine to make Kansas City a hub of activity. In addition to a low cost of living and an abundance of jobs, residents enjoy exploring the city’s thriving art scene, cheering on the Royals during baseball season, and noshing on Kansas City’s signature style of barbecue — slow cooked and topped with a tomato-based sauce.",
+          "imgUrl": "https://farm9.staticflickr.com/8004/7695414056_b616328254_q_d.jpg"
         }
       ]
     }
